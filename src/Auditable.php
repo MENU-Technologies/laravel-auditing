@@ -18,8 +18,9 @@ use OwenIt\Auditing\Exceptions\AuditingException;
 trait Auditable
 {
     /**
-     * Auditable attributes excluded from the Audit.
+     * Auditable attributes excluded from the Audit .
      *
+     * test
      * @var array
      */
     protected $excludedAttributes = [];
